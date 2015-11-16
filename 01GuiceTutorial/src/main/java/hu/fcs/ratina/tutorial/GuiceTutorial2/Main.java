@@ -11,7 +11,7 @@ public class Main {
         MyApp myApp = injector.getInstance(MyApp.class);
         myApp.notifyUser("csaba.fulop@nokia.com");
 
-        MessageService messageService = injector.getInstance(MessageService.class);
+        MessageService messageService = injector.getInstance(FacebookMessageService.class);
         messageService.send("csaba.fulop@nokia.com", "Hello World!");
     }
 
