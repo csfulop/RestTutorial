@@ -8,8 +8,7 @@ public class BillingService {
     private final TransactionLog transactionLog;
 
     @Inject
-    public BillingService(CreditCardProcessor processor,
-            TransactionLog transactionLog) {
+    public BillingService(CreditCardProcessor processor, TransactionLog transactionLog) {
         this.processor = processor;
         this.transactionLog = transactionLog;
     }

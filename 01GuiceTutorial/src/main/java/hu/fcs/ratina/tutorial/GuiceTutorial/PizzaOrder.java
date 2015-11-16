@@ -10,7 +10,6 @@ public class PizzaOrder {
     }
 
     public int getAmount() {
-        // TODO Auto-generated method stub
         return amount;
     }
 
