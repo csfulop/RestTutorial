@@ -2,19 +2,21 @@
 package hu.fcs.ratina.tutorial.GuiceTutorial2;
 
 import com.google.inject.Inject;
-import com.google.inject.Provider;
 
 public class MyApp {
 
-    private Provider<MessageService> provider;
+    private MessageService messageService;
+
+    public MyApp() {
+    }
 
     @Inject
-    public MyApp(@Facebook Provider<MessageService> provider) {
-        this.provider = provider;
+    public void setMessageService(MessageService messageService) {
+        this.messageService = messageService;
     }
 
     public void notifyUser(String user) {
-        provider.get().send(user, "New version of MyApp is available");
+        messageService.send(user, "New version of MyApp is available");
     }
 
 }
