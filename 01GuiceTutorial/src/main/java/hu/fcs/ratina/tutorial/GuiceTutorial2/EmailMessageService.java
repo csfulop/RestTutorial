@@ -1,0 +1,17 @@
+
+package hu.fcs.ratina.tutorial.GuiceTutorial2;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class EmailMessageService implements MessageService {
+
+    private static Logger LOGGER = LoggerFactory.getLogger(MessageService.class);
+
+    @Override
+    public boolean send(String recipient, String message) {
+        LOGGER.info("Email message to {}: {}", recipient, message);
+        return true;
+    }
+
+}
