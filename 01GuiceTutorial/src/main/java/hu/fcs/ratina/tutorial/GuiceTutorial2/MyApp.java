@@ -8,7 +8,7 @@ public class MyApp {
     private MessageService messageService;
 
     @Inject
-    public MyApp(FacebookMessageService messageService) {
+    public MyApp(MessageService messageService) {
         this.messageService = messageService;
     }
 
