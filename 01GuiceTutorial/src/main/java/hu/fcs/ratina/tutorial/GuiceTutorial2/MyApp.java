@@ -2,13 +2,14 @@
 package hu.fcs.ratina.tutorial.GuiceTutorial2;
 
 import com.google.inject.Inject;
+import com.google.inject.name.Named;
 
 public class MyApp {
 
     private MessageService messageService;
 
     @Inject
-    public MyApp(@Facebook MessageService messageService) {
+    public MyApp(@Named("Facebook") MessageService messageService) {
         this.messageService = messageService;
     }
 
