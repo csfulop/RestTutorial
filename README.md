@@ -10,6 +10,8 @@ Jersey + Jackson: http://examples.javacodegeeks.com/enterprise-java/rest/jersey/
 
 Jersey with Guice (+Grizzly): https://sites.google.com/a/athaydes.com/renato-athaydes//posts/jersey_guice_rest_api
 
+Grizzly: https://jersey.java.net/nonav/documentation/snapshot/getting-started.html#new-from-archetype
+
 Swagger: https://github.com/teamcarma/swagger-jaxrs-doclet
 
 Cucumber: http://www.hascode.com/2014/12/bdd-testing-with-cucumber-java-and-junit/
