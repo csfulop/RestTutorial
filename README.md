@@ -14,7 +14,7 @@ Jersey with Guice (+Grizzly):
 https://sites.google.com/a/athaydes.com/renato-athaydes//posts/jersey_guice_rest_api
 https://github.com/sunnygleason/j4-minimal
 
-Grizzly: https://jersey.java.net/nonav/documentation/snapshot/getting-started.html#new-from-archetype
+Jersey Client examples: http://buraktas.com/jersey-client-example-with-json-support/
 
 Swagger: https://github.com/teamcarma/swagger-jaxrs-doclet
 
