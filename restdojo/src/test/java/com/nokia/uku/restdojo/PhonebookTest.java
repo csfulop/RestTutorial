@@ -12,6 +12,9 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.nokia.uku.restdojo.Entry;
+import com.nokia.uku.restdojo.Phonebook;
+
 public class PhonebookTest {
 
     private static final Entry KISS_PISTA = new Entry("Kiss Istvan", "+36201234567");
@@ -45,7 +48,7 @@ public class PhonebookTest {
         loadPhonebook();
 
         // then
-        assertThat(phonebook.size(), is(2));
+        assertThat(phonebook.size(), is(3));
     }
 
     private void loadPhonebook() {
