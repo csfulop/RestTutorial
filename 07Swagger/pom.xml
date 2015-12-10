@@ -130,11 +130,6 @@
 			<artifactId>jersey-grizzly2</artifactId>
 			<version>${jersey.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>io.swagger</groupId>
-			<artifactId>swagger-jersey-jaxrs</artifactId>
-			<version>1.5.4</version>
-		</dependency>
 
 		<!-- Test Dependencies -->
 
